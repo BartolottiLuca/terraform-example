@@ -40,12 +40,12 @@ resource "kubernetes_deployment" "api" {
 
           resources {
             limits = {
-              cpu    = "3"
-              memory = "3GB"
+              cpu    = var.deployment_cpu_limit
+              memory = var.deployment_mem_limit
             }
             requests = {
-              cpu    = "1"
-              memory = "1GB"
+              cpu    = var.deployment_cpu_request
+              memory = var.deployment_mem_request
             }
           }
 

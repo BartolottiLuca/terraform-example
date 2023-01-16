@@ -17,3 +17,19 @@ variable "api_image_version" {
 variable "initial_api_replica" {
   default = 2
 }
+
+variable "deployment_cpu_limit" {
+  default = "3"
+}
+
+variable "deployment_mem_limit" {
+  default = "3GB"
+}
+
+variable "deployment_cpu_request" {
+  default = "1"
+}
+
+variable "deployment_mem_request" {
+  default = "1GB"
+}

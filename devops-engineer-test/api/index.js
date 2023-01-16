@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", async function (req, res) {
-  res.send("Hello, Thank you for taking time for the MachineMax tech test!");
+  res.send("Hello, thank you for taking time for the terraform challenge!");
 });
 
 app.get("/greetings", async function (req, res) {

@@ -1,6 +1,6 @@
 # Service Deployment Test
 
-## A take-home challenge from MachineMax
+## A terraform challenge 
 
 ### Abstract
 
@@ -18,7 +18,7 @@ Your challenge is two-fold:
    Please explicitly state any assumptions that you need to make as part of this design, as well as any expectations of the provided service container.
 2. Implement this design using Terraform or an equivalent deployment technology. An example Dockerfile of an (extremely) simple API endpoint container is provided in the 'api' folder of this repository that you may use.
    Endpoints:
-   / => Return 200 (Hello, thank you for taking time for the MachineMax tech test!)
+   / => Return 200 (Hello, thank you for taking time for the terraform challenge!)
    /greetings?name="NAME" => Return 200 (Hello, NAME)
 
 ### To test locally
@@ -41,7 +41,3 @@ Assuming that you submit a viable solution, we are then first and foremost inter
 1. Cloud agnostic (can be deployed on GCP/AWS/Azure)
 2. Country scaling (can be deployed on different countries)
 3. Load Balancer (can accept connection from different countries and redirect to the closest service in that country)
-
-### Submitting your solution
-
-Once your repository is ready, send it to us.
